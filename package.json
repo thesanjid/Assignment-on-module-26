@@ -2,14 +2,18 @@
   "name": "assignment-on-module-26",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+
   "scripts": {
+    "dev": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+
   "dependencies": {
     "axios": "^1.16.0",
     "bcryptjs": "^3.0.3",
@@ -21,10 +25,22 @@
     "react-router-dom": "^7.14.2",
     "zustand": "^5.0.12"
   },
+
   "devDependencies": {
     "autoprefixer": "^10.5.0",
     "nodemon": "^3.1.14",
     "postcss": "^8.5.13",
     "tailwindcss": "^4.2.4"
-  }
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesanjid/Assignment-on-module-26.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/thesanjid/Assignment-on-module-26/issues"
+  },
+
+  "homepage": "https://github.com/thesanjid/Assignment-on-module-26#readme"
 }
